@@ -1,0 +1,27 @@
+{
+  "name": "curriculum-platform",
+  "version": "1.0.0",
+  "description": "curriculum online",
+  "main": "server/server.js",
+  "dependencies": {
+    "express": "4.2.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasPinheiro/curriculum-platform.git"
+  },
+  "author": "douglas da costa pinheiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/douglasPinheiro/curriculum-platform/issues"
+  },
+  "keywords": [
+    "curriculum",
+    "online"
+  ],
+  "homepage": "https://github.com/douglasPinheiro/curriculum-platform#readme"
+}
