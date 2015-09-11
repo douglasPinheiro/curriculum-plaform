@@ -26,8 +26,27 @@ body {
 	transform-style: inherit;
 }
 
+.block, .block:before {
+  background: 50% 50% / cover;
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  width: 320px;
+  height: 240px;
+  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
 #block_1 {
-  background-color: blue;
+  background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-15.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
 }
 
 #block_2 {
