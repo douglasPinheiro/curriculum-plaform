@@ -44,3 +44,9 @@ body {
 #block_3 {
   background-color: green;
 }
+
+.title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 36px;
+}
