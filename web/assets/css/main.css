@@ -38,6 +38,7 @@ body {
 
 #block_2 {
   background-color: white;
+  min-height: 120vh;
 }
 
 #block_3 {
