@@ -50,3 +50,31 @@ body {
   font-weight: 400;
   font-size: 36px;
 }
+
+nav {
+    display: block;
+    font: 12px 'opensans-bold', sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin: 0 auto;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+#nav {
+    list-style-type: none;
+    display: flex;
+}
+
+ul#nav li {
+    width:100%;
+    text-align:center;
+    position: relative;
+    list-style: none;
+    height: 48px;
+    display: inline-block;
+    color: white;
+}
